@@ -30,3 +30,7 @@ $fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Font -------------------------------------------------------- //
 $fontStack: normal 400 100%/1.6 $fontFamily;
+
+// basicGrid --------------------------------------------------- //
+$basicGrid__width  : $maxWidth;
+$basicGrid__gutter : $gutter;

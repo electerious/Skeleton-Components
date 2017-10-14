@@ -16,7 +16,7 @@
     "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/*.{data,config}.{js,json}'"
   },
   "dependencies": {
-    "basicgrid": "^2.0.2",
+    "basicgrid": "^3.0.0",
     "normalize.css": "^7.0.0",
     "rosid": "^9.0.1",
     "rosid-handler-components": "^3.1.2",
