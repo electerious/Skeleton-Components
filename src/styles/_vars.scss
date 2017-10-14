@@ -1,0 +1,32 @@
+// Colors ------------------------------------------------------ //
+$colors: (
+	'white': #ffffff,
+	'black': #000000,
+	'light': #dddddd,
+	'dark': #111111,
+	'green': #6fae43,
+	'text': #333333
+);
+
+// Sizes ------------------------------------------------------- //
+$gutter: 1.8rem;
+$maxWidth: 1200px;
+
+// Breakpoints ------------------------------------------------- //
+$bpXXS: 480px;
+$bpXS: 640px;
+$bpS: 960px;
+$bpM: 1024px;
+$bpL: 1280px;
+$bpXL: 1366px;
+$bpXXL: 1920px;
+
+// Animations -------------------------------------------------- //
+$duration: .3s;
+$timing: cubic-bezier(.51, .92, .24, 1);
+
+// Typography -------------------------------------------------- //
+$fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font -------------------------------------------------------- //
+$fontStack: normal 400 100%/1.6 $fontFamily;

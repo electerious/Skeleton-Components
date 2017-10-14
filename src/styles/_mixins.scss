@@ -1,0 +1,49 @@
+@mixin fontFace($family, $src, $style: normal, $weight: 400) {
+
+	/*
+	 * Including a font with different weights:
+	 * @include fontFace('FontName', '../fonts/regular', normal, 400);
+	 * @include fontFace('FontName', '../fonts/light', normal, 300);
+	 * @include fontFace('FontName', '../fonts/bold', normal, 700);
+	 */
+
+	@font-face {
+		font-family: $family;
+		src: url('#{$src}.woff2') format('woff2'), url('#{$src}.woff') format('woff');
+		font-style: $style;
+		font-weight: $weight;
+	}
+
+}
+
+@mixin headlines() {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		@content;
+	}
+
+}
+
+@mixin text() {
+
+	p,
+	address,
+	ol,
+	ul,
+	label,
+	blockquote {
+		@content;
+	}
+
+}

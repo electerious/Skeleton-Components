@@ -1,0 +1,23 @@
+.spacing {
+
+	&-huge {
+		margin-bottom: $gutter*2;
+	}
+
+	&-large {
+		margin-bottom: $gutter*1.5;
+	}
+
+	&-medium {
+		margin-bottom: $gutter;
+	}
+
+	&-small {
+		margin-bottom: $gutter/2;
+	}
+
+	&-zero {
+		margin-bottom: 0;
+	}
+
+}

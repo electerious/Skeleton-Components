@@ -1,0 +1,44 @@
+.btn {
+
+	display: inline-block;
+	margin: 0 0 $gutter/2;
+	padding: .5em 1em;
+	line-height: 1em;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	transition: background $duration $timing;
+	border: 0;
+	border-radius: 0;
+
+	&:active {
+		transition: none;
+	}
+
+	@each $colorName, $color in $colors {
+
+		$colorFont: null;
+
+		@if lightness($color) <= 50% { $colorFont: white; }
+		@if lightness($color) > 50% { $colorFont: black; }
+
+		&--#{ $colorName } {
+
+			background: $color;
+			color: $colorFont;
+
+			&:hover {
+				background: lighten($color, 10%);
+			}
+
+			&:active {
+				background: darken($color, 10%);
+			}
+
+		}
+
+	}
+
+}

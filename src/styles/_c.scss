@@ -1,0 +1,7 @@
+.c {
+
+	@each $colorName, $color in $colors {
+		&-#{ $colorName } { color: $color; }
+	}
+
+}
