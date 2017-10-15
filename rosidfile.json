@@ -6,7 +6,7 @@
   },
   {
     "name": "SASS",
-    "path": "styles/[^_]*.{css,scss}*",
+    "path": "styles/**/[^_]*.{css,scss}*",
     "handler": "rosid-handler-sass",
     "opts": {
       "in": ".scss"
