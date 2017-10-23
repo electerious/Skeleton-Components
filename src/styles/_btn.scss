@@ -12,6 +12,7 @@
 	transition: background $duration $timing;
 	border: 0;
 	border-radius: 0;
+	vertical-align: middle;
 
 	&:active {
 		transition: none;
