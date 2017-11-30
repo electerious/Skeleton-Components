@@ -8,7 +8,7 @@
 		@return map-get($colors, $key);
 	}
 
-	@error 'Unknown `#{$key}` in $colors.';
+	@error 'Unknown `#{ $key }` in $colors.';
 	@return null;
 
 }
