@@ -13,7 +13,7 @@
     }
   },
   {
-    "name": "NJK Component",
+    "name": "NJK",
     "path": "components/[^_]*/[^_]*.{html,njk}*",
     "handler": "rosid-handler-njk",
     "opts": {
@@ -24,9 +24,9 @@
     }
   },
   {
-    "name": "UI",
+    "name": "Malvid",
     "path": "index.{html,html.json}",
-    "handler": "rosid-handler-components",
+    "handler": "rosid-handler-malvid",
     "opts": {
       "src": "src/"
     }

@@ -866,8 +866,8 @@ boom@5.x.x:
     hoek "4.x.x"
 
 bowser@^1.7.3:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.8.0.tgz#889d46ac922ec5db8297672747362ef836781ba7"
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.8.1.tgz#49785777e7302febadb1a5b71d9a646520ed310d"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
@@ -1278,10 +1278,11 @@ color-name@^1.0.0, color-name@^1.1.1:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
 
 color-parse@^1.2.0:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/color-parse/-/color-parse-1.3.4.tgz#c7b741ff8a41b224a39c1f2d60c3b92b9fd993a3"
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/color-parse/-/color-parse-1.3.5.tgz#4c810f72e808e4f73b63f72acd78da538a515564"
   dependencies:
     color-name "^1.0.0"
+    defined "^1.0.0"
     is-plain-obj "^1.1.0"
 
 color-string@^0.3.0:
@@ -1345,7 +1346,7 @@ component-inherit@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/component-inherit/-/component-inherit-0.0.3.tgz#645fc4adf58b72b649d5cae65135619db26ff143"
 
-components-lookup@^4.0.1:
+components-lookup@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/components-lookup/-/components-lookup-4.0.2.tgz#726b8ba8aa4733cb819e90f3bc30cc8dca0561e9"
   dependencies:
@@ -1457,14 +1458,6 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
-
-create-react-class@^15.6.0:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
-  dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
 
 cross-spawn@^3.0.0:
   version "3.0.1"
@@ -1908,7 +1901,7 @@ fast-deep-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
 
-fbjs@^0.8.12, fbjs@^0.8.16, fbjs@^0.8.9:
+fbjs@^0.8.12, fbjs@^0.8.16:
   version "0.8.16"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
   dependencies:
@@ -2302,7 +2295,7 @@ highlight.js@^9.12.0:
   version "9.12.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
 
-history@^4.6.3:
+history@^4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/history/-/history-4.7.2.tgz#22b5c7f31633c5b8021c7f4a8a954ac139ee8d5b"
   dependencies:
@@ -2918,6 +2911,29 @@ lru-cache@^4.0.1:
 macaddress@^0.2.8:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
+
+malvid@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/malvid/-/malvid-4.0.1.tgz#e9fcab38a54cb3ed5cd5d5fcb7c21e65c8f9a172"
+  dependencies:
+    color-alpha "^1.0.2"
+    components-lookup "^4.0.2"
+    glamor "^3.0.0-2"
+    highlight.js "^9.12.0"
+    history "^4.7.2"
+    is-plain-obj "^1.1.0"
+    marked "^0.3.6"
+    normalize-url "^1.9.1"
+    pify "^3.0.0"
+    prop-types "^15.6.0"
+    react "^16.2.0"
+    react-document-title "^2.0.3"
+    react-dom "^16.2.0"
+    react-redux "^5.0.6"
+    redux "^3.7.2"
+    rosid-handler-js "^10.0.1"
+    searchstring "^1.0.2"
+    url-pattern "^1.0.3"
 
 map-cache@^0.2.2:
   version "0.2.2"
@@ -3782,7 +3798,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.6:
+prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -3884,16 +3900,16 @@ react-document-title@^2.0.3:
     prop-types "^15.5.6"
     react-side-effect "^1.0.2"
 
-react-dom@^15.6.1:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
+react-dom@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
-    fbjs "^0.8.9"
+    fbjs "^0.8.16"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
-react-redux@^5.0.5:
+react-redux@^5.0.6:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.6.tgz#23ed3a4f986359d68b5212eaaa681e60d6574946"
   dependencies:
@@ -3911,15 +3927,14 @@ react-side-effect@^1.0.2:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react@^15.6.1:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
+react@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
+    fbjs "^0.8.16"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
 
 read-only-stream@^2.0.0:
   version "2.0.0"
@@ -4176,30 +4191,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^2.0.0"
     inherits "^2.0.1"
 
-rosid-handler-components@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/rosid-handler-components/-/rosid-handler-components-3.1.2.tgz#7be2665de4db0a8a62330dde48806db25e4803de"
-  dependencies:
-    color-alpha "^1.0.2"
-    components-lookup "^4.0.1"
-    glamor "^3.0.0-2"
-    highlight.js "^9.12.0"
-    history "^4.6.3"
-    is-plain-obj "^1.1.0"
-    marked "^0.3.6"
-    normalize-url "^1.9.1"
-    pify "^3.0.0"
-    prop-types "^15.5.10"
-    react "^15.6.1"
-    react-document-title "^2.0.3"
-    react-dom "^15.6.1"
-    react-redux "^5.0.5"
-    redux "^3.7.2"
-    rosid-handler-js "^10.0.0"
-    searchstring "^1.0.2"
-    url-pattern "^1.0.3"
-
-rosid-handler-js@^10.0.0, rosid-handler-js@^10.0.1:
+rosid-handler-js@^10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/rosid-handler-js/-/rosid-handler-js-10.0.1.tgz#e1d76a2cace498545f8ea0b85315693e05b013b0"
   dependencies:
@@ -4211,6 +4203,13 @@ rosid-handler-js@^10.0.0, rosid-handler-js@^10.0.1:
     loose-envify "^1.3.1"
     uglify-js "^3.0.27"
     uuid "^3.1.0"
+
+rosid-handler-malvid@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rosid-handler-malvid/-/rosid-handler-malvid-1.0.0.tgz#b59afbb76f83ded0588a82f83ff3ede5fa0aa3de"
+  dependencies:
+    is-plain-obj "^1.1.0"
+    malvid "^4.0.0"
 
 rosid-handler-njk@^5.0.3:
   version "5.0.4"
@@ -4723,8 +4722,8 @@ svgo@^0.7.0:
     whet.extend "~0.9.9"
 
 symbol-observable@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.1.0.tgz#5c68fd8d54115d9dfb72a84720549222e8db9b32"
 
 syntax-error@^1.1.1:
   version "1.3.0"
