@@ -57,7 +57,7 @@ yarn run compile
 
 ### UI
 
-Skeleton includes a UI to help you build & document web components. Start the [development server](#develop) and open `/index.html` in your browser. The path to the UI can be changed in `rosidfile.js`.
+Skeleton includes [Malvid](https://github.com/comwrap/Malvid) to help you build and document web components. Start the [development server](#develop) and open `/index.html` in your browser. The path to the UI can be changed in `rosidfile.js`.
 
 ## Docker
 
