@@ -25,11 +25,8 @@ $bpXXL: 1920px;
 $duration: .3s;
 $timing: cubic-bezier(.51, .92, .24, 1);
 
-// Typography -------------------------------------------------- //
-$fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-// Font -------------------------------------------------------- //
-$fontStack: normal 400 100%/1.6 $fontFamily;
+// Typography -------------------------------------------------------- //
+$fontStack: normal 400 100%/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // basicGrid --------------------------------------------------- //
 $basicGrid__width: $maxWidth;
