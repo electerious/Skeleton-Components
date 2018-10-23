@@ -20,7 +20,7 @@
       "prepend": "{% extends \"../_layout.njk\" %}{% block body %}",
       "append": "{% endblock %}",
       "src": "src/components/",
-      "data": "data.json"
+      "data": "data.js"
     }
   },
   {
