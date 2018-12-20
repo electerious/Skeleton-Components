@@ -4086,10 +4086,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nunjucks@^3.1.2:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.1.4.tgz#d15d7b6c4215d2525f991b948335e16502fa1bfa"
-  integrity sha512-OIbdsl7jAZpw5V6GIa6wJc2AKCC/JSwuVdNKuVpFZ+eB3kYugoGF6OVN/jKNFe52782Uj89n0pT0DiSS1KPbxA==
+nunjucks@^3.1.4:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.1.6.tgz#6e3a3420c77ceae937ae323e9e2995383d6410fb"
+  integrity sha512-aHCt5arZUqHnRNjfDBCq+fI/O3J2sxx+xZdz6mCNvwAgJVCtHM/VAv2++figjGeFyrZ1dVcJ1dCJwMxY8iYoqQ==
   dependencies:
     a-sync-waterfall "^1.0.0"
     asap "^2.0.3"
@@ -5104,6 +5104,11 @@ request@^2.87.0, request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
+require-data@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/require-data/-/require-data-1.0.0.tgz#1fb2098f49e0c23c1ecc612095bf69c4d8836aef"
+  integrity sha512-cw/0M1xEpSbbl4FLcHQph/9G0HMzT7Wnb/fzGp/P1zivO+7TNyvyvxxgx0tGzNGej0PKJgn9vdj/vFlpRPxJSg==
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -5207,14 +5212,15 @@ rosid-handler-malvid@^3.0.1:
     is-plain-obj "^1.1.0"
     malvid "^5.0.2"
 
-rosid-handler-njk@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/rosid-handler-njk/-/rosid-handler-njk-7.0.0.tgz#58aca5d9aa8a419d1d746770303cf8447744eca5"
-  integrity sha512-66vntg+5i6ICZWVfwHarBiZV66momzZcvDGKQ75BQzY4EYJMpaqb9jXDwdJYqL1EzGLhiE+W6xSUCFzIR7grhg==
+rosid-handler-njk@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/rosid-handler-njk/-/rosid-handler-njk-7.1.0.tgz#d5d6f5e100259310530555039776902ad42bf360"
+  integrity sha512-BC5mfA9Iyv7krJPcZhjPaFTakmJU0SRYP4+uXZ7ReqU0M3ek2jGysabQttG3Yq2YeGRbC6IMakazp9vD2fzARA==
   dependencies:
+    continuous-stealthy-require "^1.0.0"
     find-up "^3.0.0"
-    nunjucks "^3.1.2"
-    stealthy-require "^1.1.1"
+    nunjucks "^3.1.4"
+    require-data "^1.0.0"
 
 rosid-handler-sass@^6.0.2:
   version "6.0.2"
