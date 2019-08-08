@@ -20,7 +20,7 @@
     "normalize.css": "^8.0.1",
     "rosid": "^10.0.0",
     "rosid-handler-js": "^12.1.0",
-    "rosid-handler-malvid": "^3.0.6",
+    "rosid-handler-malvid": "^3.0.7",
     "rosid-handler-njk": "^7.2.0",
     "rosid-handler-sass": "^6.0.4"
   }
